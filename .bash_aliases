@@ -1,0 +1,8 @@
+alias code='cd ~/workspace/lglue/server/'
+alias sqldev='/opt/sqldeveloper/sqldeveloper.sh'
+alias g='~/workspace/lglue/server/gradlew'
+alias pact='source ~/.local/bin/logicalglue/bin/activate'
+alias pact2='source ~/.local/bin/lgv2/bin/activate'
+alias pdea='deactivate'
+alias rmdocker='docker rm $(docker ps -a -q)'
+alias s='sudo'
