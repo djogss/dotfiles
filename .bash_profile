@@ -152,3 +152,8 @@ function blt() {
 }
 export PATH="/usr/local/opt/php@7.1/bin:$PATH"
 export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
+export PATH=$PATH:$HOME/workspaces/tools/gitlibs/arcanist/bin
+
+export PATH="/usr/local/opt/node@8/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/node@8/lib"
+export CPPFLAGS="-I/usr/local/opt/node@8/include"
