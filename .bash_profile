@@ -157,3 +157,7 @@ export PATH=$PATH:$HOME/workspaces/tools/gitlibs/arcanist/bin
 export PATH="/usr/local/opt/node@8/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/node@8/lib"
 export CPPFLAGS="-I/usr/local/opt/node@8/include"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/mantas/.sdkman"
+[[ -s "/Users/mantas/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mantas/.sdkman/bin/sdkman-init.sh"
