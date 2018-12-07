@@ -154,10 +154,15 @@ export PATH="/usr/local/opt/php@7.1/bin:$PATH"
 export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
 export PATH=$PATH:$HOME/workspaces/tools/gitlibs/arcanist/bin
 
-export PATH="/usr/local/opt/node@8/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/node@8/lib"
-export CPPFLAGS="-I/usr/local/opt/node@8/include"
+#export PATH="/usr/local/opt/node@8/bin:$PATH"
+#export LDFLAGS="-L/usr/local/opt/node@8/lib"
+#export CPPFLAGS="-I/usr/local/opt/node@8/include"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/mantas/.sdkman"
 [[ -s "/Users/mantas/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mantas/.sdkman/bin/sdkman-init.sh"
+
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+export CPPFLAGS="-I/usr/local/opt/icu4c/include"
