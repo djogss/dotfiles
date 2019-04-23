@@ -1,6 +1,6 @@
 alias code='cd ~/workspace/lglue/server/'
 alias sqldev='/opt/sqldeveloper/sqldeveloper.sh'
-alias g='~/workspace/lglue/server/gradlew'
+alias g='~/workspaces/java/lg/server/gradlew'
 alias pact='source ~/.local/bin/logicalglue/bin/activate'
 alias pact2='source ~/.local/bin/lgv2/bin/activate'
 alias pdea='deactivate'
