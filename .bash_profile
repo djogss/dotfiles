@@ -77,6 +77,11 @@ fi
 # Use brew-installed PHP binaries.
 export PATH="$brew_prefix/opt/php70/bin:$PATH"
 
+
+export NVM_DIR="$HOME/.nvm"
+   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+     [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
 # Use nvm.
 # export NVM_DIR="$HOME/.nvm"
 # . "$brew_prefix/opt/nvm/nvm.sh"

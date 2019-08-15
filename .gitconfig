@@ -47,6 +47,7 @@
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
 	# List contributors with number of commits
     contributors = shortlog --summary --numbered
+	fame = python --version -m gitfame
 
 [push]
 	default = simple
